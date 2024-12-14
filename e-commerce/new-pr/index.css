@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+  background-color: black;
+}
+.text{
+font-size: 3rem;
+margin: 10px;
+position: relative;
+left: 50px;
+bottom:  5px;
+color: white;
+text-shadow: 10px 10px 10px #fff;
+
+}
+/* Target the dropdown menu */
+.dropdown-menu {
+    width: 300px; /* Adjust width */
+    font-size: 16px; /* Adjust font size */
+    padding: 10px; /* Adjust padding */
+  }
+  
+  /* Target dropdown items */
+  .dropdown-item {
+    font-size: 16px; /* Adjust font size for items */
+    padding: 12px 20px; /* Adjust padding for items */
+  }
+  .drop-down{
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .list ul{
+    display: flex;
+    
+  }
+  .list ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    /* position: relative; */
+    /* top: 5px; */
+    font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  }
+  .list ul li:hover{
+    cursor: pointer;
+    background-color: bisque;
+  } 
+  .card {  
+    box-shadow: 2px 6px 8px 2px rgba(0,0,0,0.2);  
+    transition: 0.2s;  
+    width: 300px;
+    height: 250px;  
+    background-color: white;  
+    margin: 10px; 
+    border-radius: 8px; /* Optional: Rounds card corners */
+ 
+    }  
+    .main_div {  
+    /* background-color: #F9F1F1;   */
+    height:80vh;
+     
+ display: flex;
+ flex-wrap: wrap; /* Optional: Allows wrapping on smaller screens */
+ gap: 20px; /* Add gap between items */
+justify-content: space-between;
+    }  
+    .container {  
+    padding: 2px 16px; 
+    }  
+    
+    .footer{
+        display: flex;
+        border-top: 5px solid gray;
+        height: 200px;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+    }
+    .foot-box{
+        font-size: 4rem;
+        font-family:  monospace;
+        text-shadow: 10px 10px 10px black;
+    }
